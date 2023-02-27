@@ -88,6 +88,7 @@ Let's deploy the Next.js application to [Vercel](https://vercel.com/). If you ha
 
 ## TODO
 
+- [ ] Organize prompts in a prompt library (rather than leaving them in the API folder)
 - [ ] Add Promptable.js option
 - [ ] Add PromptLayer example?
 - [ ] Add Vercel Edge Functions to handle streaming
