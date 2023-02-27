@@ -55,6 +55,7 @@ pnpm i
 
 # Configure environment variables.
 # There is an `.env.example` in the root directory you can use for reference
+# Make sure you add the OPENAI_API_KEY environment variable!
 cp .env.example .env
 
 # Push the Prisma schema to your database
