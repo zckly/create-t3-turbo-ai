@@ -96,6 +96,4 @@ Let's deploy the Next.js application to [Vercel](https://vercel.com/). If you ha
 - [ ] Add LLM + Agents example
 ## References
 
-The stack originates from [create-t3-app](https://github.com/t3-oss/create-t3-app).
-
-A [blog post](https://jumr.dev/blog/t3-turbo) where I wrote how to migrate a T3 app into this.
+The stack originates from [create-t3-app](https://github.com/t3-oss/create-t3-app) and [create-t3-turbo](https://github.com/t3-oss/create-t3-turbo). The maintainers of these projects deserve all the credit!
