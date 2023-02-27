@@ -1,12 +1,18 @@
-# create-t3-turbo
-
-<img width="1758" alt="turbo2" src="https://user-images.githubusercontent.com/51714798/213819392-33e50db9-3e38-4c51-9a22-03abe5e48f3d.png">
+# create-t3-turbo-ai
 
 ## About
 
-Ever wondered how to migrate your T3 application into a monorepo? Stop right here! This is the perfect starter repo to get you running with the perfect stack!
+The ultimate starter repo for building full-stack, type-safe, LLM-powered web apps. It uses:
+- (Turborepo)[https://turborepo.org/]
+- (Next.js)[https://nextjs.org/]
+- (OpenAI)[https://openai.com/]
+- (Langchain)[https://hwchase17.github.io/langchainjs/docs/getting-started]
+- (tRPC)[https://trpc.io/]
+- (Prisma)[https://www.prisma.io/]
 
-It uses [Turborepo](https://turborepo.org/) and contains:
+And much more!
+
+## Folder structure
 
 ```
 .github
@@ -79,6 +85,11 @@ Let's deploy the Next.js application to [Vercel](https://vercel.com/). If you ha
 
 3. Done! Your app should successfully deploy. Assign your domain and use that instead of `localhost` for the `url` in the Expo app so that your Expo app can communicate with your backend when you are not in development.
 
+## TODO
+
+- [ ] Add Promptable.js
+- [ ] Add Vercel Edge Functions to handle streaming
+- [ ] Add more examples
 ## References
 
 The stack originates from [create-t3-app](https://github.com/t3-oss/create-t3-app).
