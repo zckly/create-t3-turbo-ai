@@ -3,12 +3,12 @@
 ## About
 
 The ultimate starter repo for building full-stack, type-safe, LLM-powered web apps. It uses:
-- (Turborepo)[https://turborepo.org/]
-- (Next.js)[https://nextjs.org/]
-- (OpenAI)[https://openai.com/]
-- (Langchain)[https://hwchase17.github.io/langchainjs/docs/getting-started]
-- (tRPC)[https://trpc.io/]
-- (Prisma)[https://www.prisma.io/]
+- [Turborepo](https://turborepo.com/) for monorepo management
+- [tRPC](https://trpc.io/) for API routing
+- [Prisma](https://www.prisma.io/) for database access
+- [Next.js](https://nextjs.org/) for the web app
+- [OpenAI](https://openai.com/) for the AI
+- [Langchain](https://hwchase17.github.io/langchainjs/docs/overview) for LLM management
 
 And much more!
 
