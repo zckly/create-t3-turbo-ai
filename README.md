@@ -88,7 +88,8 @@ Let's deploy the Next.js application to [Vercel](https://vercel.com/). If you ha
 
 ## TODO
 
-- [ ] Add Promptable.js
+- [ ] Add Promptable.js option
+- [ ] Add PromptLayer example?
 - [ ] Add Vercel Edge Functions to handle streaming
 - [ ] Add more examples
 ## References
