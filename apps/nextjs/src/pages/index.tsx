@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import { signIn, signOut } from "next-auth/react";
 import Head from "next/head";
-import Link from "next/link";
 import { useState } from "react";
 
 import { api, type RouterOutputs } from "~/utils/api";
@@ -32,12 +31,10 @@ const CreatePostForm: React.FC = () => {
   const utils = api.useContext();
 
   const [title, setTitle] = useState("");
-  const [content, setContent] = useState("");
 
   const { mutate, error } = api.post.create.useMutation({
     async onSuccess() {
       setTitle("");
-      setContent("");
       await utils.post.all.invalidate();
     },
   });
@@ -48,23 +45,11 @@ const CreatePostForm: React.FC = () => {
         className="mb-2 rounded bg-white/10 p-2 text-white"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
-        placeholder="Title"
+        placeholder="What does your product/company do?"
       />
       {error?.data?.zodError?.fieldErrors.title && (
         <span className="mb-2 text-red-500">
           {error.data.zodError.fieldErrors.title}
-        </span>
-      )}
-      <Link href="/yoo">Hello</Link>
-      <input
-        className="mb-2 rounded bg-white/10 p-2 text-white"
-        value={content}
-        onChange={(e) => setContent(e.target.value)}
-        placeholder="Content"
-      />
-      {error?.data?.zodError?.fieldErrors.content && (
-        <span className="mb-2 text-red-500">
-          {error.data.zodError.fieldErrors.content}
         </span>
       )}
       <button
@@ -72,11 +57,10 @@ const CreatePostForm: React.FC = () => {
         onClick={() => {
           mutate({
             title,
-            content,
           });
         }}
       >
-        Create
+      Generate company name 
       </button>
     </div>
   );
