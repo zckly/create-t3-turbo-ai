@@ -94,6 +94,8 @@ Let's deploy the Next.js application to [Vercel](https://vercel.com/). If you ha
 - [ ] Add Vercel Edge Functions to handle streaming
 - [ ] Add ChatGPT w/ memory example
 - [ ] Add LLM + Agents example
+- [ ] Update to NextJS app directory (once stable)
+
 ## References
 
 The stack originates from [create-t3-app](https://github.com/t3-oss/create-t3-app) and [create-t3-turbo](https://github.com/t3-oss/create-t3-turbo). The maintainers of these projects deserve all the credit!
