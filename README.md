@@ -1,5 +1,7 @@
 # create-t3-turbo-ai
 
+## NOTE: THIS IS VERY MUCH 🚧 WIP 🚧. A lot of the features are yet to come - stay tuned!
+
 ## About
 
 The ultimate starter repo for building full-stack, type-safe, LLM-powered web apps. It uses:
@@ -90,7 +92,8 @@ Let's deploy the Next.js application to [Vercel](https://vercel.com/). If you ha
 
 - [ ] Organize prompts in a prompt library (rather than leaving them in the API folder)
 - [ ] Add Promptable.js option
-- [ ] Add PromptLayer example?
+- [ ] Add embeddings example
+- [ ] Add PromptLayer example
 - [ ] Add Vercel Edge Functions to handle streaming
 - [ ] Add ChatGPT w/ memory example
 - [ ] Add LLM + Agents example
