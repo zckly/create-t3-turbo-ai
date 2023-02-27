@@ -91,7 +91,8 @@ Let's deploy the Next.js application to [Vercel](https://vercel.com/). If you ha
 - [ ] Add Promptable.js option
 - [ ] Add PromptLayer example?
 - [ ] Add Vercel Edge Functions to handle streaming
-- [ ] Add more examples
+- [ ] Add ChatGPT w/ memory example
+- [ ] Add LLM + Agents example
 ## References
 
 The stack originates from [create-t3-app](https://github.com/t3-oss/create-t3-app).
